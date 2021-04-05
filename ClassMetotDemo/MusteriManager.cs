@@ -15,5 +15,13 @@ namespace ClassMetotDemo
         {
             Console.WriteLine(musteri.Isim + " isimli müşteri listeden silindi");
         }
+
+        public void MusterileriGetir(Musteri[] musteriler)
+        {
+            foreach (var musteri in musteriler)
+            {
+                Console.WriteLine(musteri.MusteriID + ": " + musteri.Isim + " " + musteri.Soyisim);
+            }
+        }
     }
 }
