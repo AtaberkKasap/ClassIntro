@@ -6,7 +6,7 @@ namespace ClassMetotDemo
     {
         static void Main(string[] args)
         {
-            usteriManager musteriManager = new MusteriManager();
+            MusteriManager musteriManager = new MusteriManager();
             Musteri musteri1 = new Musteri();
             musteri1.MusteriID = 1;
             musteri1.Isim = "Ataberk";
