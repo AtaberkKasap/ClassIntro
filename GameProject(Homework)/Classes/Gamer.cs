@@ -12,6 +12,6 @@ namespace GameProject_Homework_.Classes
         public string FullName { get; set; }
         public string NickName { get; set; }
         public string TcNo { get; set; }
-        public DateTime BirthDay { get; set; }
+        public DateTime DateOfBirth { get; set; }
     }
 }

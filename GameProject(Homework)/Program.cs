@@ -18,7 +18,7 @@ namespace GameProject_Homework_
                 FullName = "Ataberk Kasap",
                 TcNo = "12345678900",
                 NickName = "xAtaberKX",
-                BirthDay = new DateTime(2003, 01, 20)
+                DateOfBirth = new DateTime(2003, 01, 20)
             };
             gamerManager.Add(gamer1);
 
